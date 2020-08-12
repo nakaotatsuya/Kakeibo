@@ -15,6 +15,8 @@
 		8B0D362A24E23D9500D0194D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0D362824E23D9500D0194D /* LaunchScreen.storyboard */; };
 		8B0D363524E23D9600D0194D /* KakeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0D363424E23D9600D0194D /* KakeiboTests.swift */; };
 		8B0D364024E23D9600D0194D /* KakeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0D363F24E23D9600D0194D /* KakeiboUITests.swift */; };
+		8B0D364E24E261BD00D0194D /* ScreenTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0D364D24E261BD00D0194D /* ScreenTransitionView.swift */; };
+		8B0D365024E2621600D0194D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0D364F24E2621600D0194D /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8B0D363B24E23D9600D0194D /* KakeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0D363F24E23D9600D0194D /* KakeiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakeiboUITests.swift; sourceTree = "<group>"; };
 		8B0D364124E23D9600D0194D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0D364D24E261BD00D0194D /* ScreenTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionView.swift; sourceTree = "<group>"; };
+		8B0D364F24E2621600D0194D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				8B0D362824E23D9500D0194D /* LaunchScreen.storyboard */,
 				8B0D362B24E23D9500D0194D /* Info.plist */,
 				8B0D362524E23D9500D0194D /* Preview Content */,
+				8B0D364D24E261BD00D0194D /* ScreenTransitionView.swift */,
+				8B0D364F24E2621600D0194D /* SecondView.swift */,
 			);
 			path = Kakeibo;
 			sourceTree = "<group>";
@@ -268,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B0D361E24E23D8D00D0194D /* AppDelegate.swift in Sources */,
+				8B0D365024E2621600D0194D /* SecondView.swift in Sources */,
 				8B0D362024E23D8D00D0194D /* SceneDelegate.swift in Sources */,
 				8B0D362224E23D8D00D0194D /* ContentView.swift in Sources */,
+				8B0D364E24E261BD00D0194D /* ScreenTransitionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
